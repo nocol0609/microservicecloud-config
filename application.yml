@@ -1,6 +1,6 @@
 spring:
   profiles:
-    active: test
+    active: dev
 
 ---
 
@@ -8,10 +8,10 @@ spring:
   profiles: dev
   application:
     name: microservicecloud-config-nocol-dev
-
+    
 ---
 
 spring:
   profiles: test
   application:
-    name: microservicecloud-config-nocol-test       
+    name: microservicecloud-config-nocol-test
